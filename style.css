@@ -105,8 +105,9 @@ img {
   background-color: white;
   box-shadow: 4px 4px 20px rgba(0, 0, 0, 20%);
 
-  width: 50rem;
-  height: 50rem;
+  width: 40rem;
+  height: auto;
+  min-height: 40rem;
 
   padding: 20px;
 
@@ -114,6 +115,7 @@ img {
 
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   gap: 50px;
 }

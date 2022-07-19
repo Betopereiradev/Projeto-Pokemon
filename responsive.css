@@ -1,27 +1,25 @@
 @media (max-width: 425px) {
+
+  body {
+    padding: 10px 0;
+  }
+
   .container {
     width: 90%;
     height: auto;
   }
 
-  .imagem {
-    width: 80%;
-    height: 25rem;
-  }
+ 
 
-  .imamgem img {
-    width: 20rem;
-    height: 20rem;
+  .imagem img {
+    width: 25rem;
   }
 
 }
 
 
 @media (max-width: 320px) {
-  .container {
-    width: 100%;
-    height: auto;
-  }
+
 
   #imgPokemon {
     width: 100%;
