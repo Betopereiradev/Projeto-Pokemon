@@ -166,13 +166,10 @@ img {
 
 @keyframes flutuar {
   0% {
-    bottom: 0px;
   }
   50% {
-    bottom: 30px;
     transform: rotate(5deg);
   }
   100% {
-    bottom: 0px;
   }
 }

@@ -9,10 +9,13 @@
     height: auto;
   }
 
- 
+  .imagem {
+    width: 100%;
+    height: 20rem;
+  }
 
   .imagem img {
-    width: 25rem;
+    width: 80%;
   }
 
 }
@@ -29,13 +32,9 @@
     font-size: 2.2rem;
   }
 
-  .imagem {
-    width: 100%;
-    height: 25rem;
-  }
 
-  .imamgem img {
-    width: 15rem;
-    height: 15rem;
+  .imagem img {
+    width: 20rem;
+    height: 20rem;
   }
 }
