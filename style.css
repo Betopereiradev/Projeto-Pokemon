@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --cor-azul: #2a75bb;
+  --cor-amarelo: #ffcb05;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Poppins', sans-serif;
+
+  background-color: #f2f4f5;
+
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+
+  gap: 5px;
+
+  width: 100%;
+}
+
+label {
+  font-size: 2.4rem;
+}
+
+input {
+  height: 4rem;
+
+  font-size: 2.2rem;
+  color: var(--cor-azul);
+
+  border-radius: 8px;
+  border: solid 1px var(--cor-azul);
+  outline: 0;
+
+  padding: 0 10px;
+}
+
+input:focus {
+  border: solid 1px var(--cor-amarelo);
+  transition: 1s;
+}
+
+::placeholder {
+  font-size: 1.6rem;
+}
+
+button {
+  background-color: var(--cor-azul);
+  border: none;
+  border-radius: 8px;
+
+  height: 4rem;
+
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: white;
+
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--cor-amarelo);
+  color: var(--cor-azul);
+
+  transition: 0.5s;
+}
+
+span {
+  color: var(--cor-azul);
+}
+
+h1 {
+  font-weight: 500;
+}
+
+img {
+  object-fit: cover;
+  width: 30rem;
+}
+
+.container {
+  border: solid 2px rgb(152, 152, 152);
+  border-radius: 8px;
+
+  background-color: white;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 20%);
+
+  width: 50rem;
+  height: 50rem;
+
+  padding: 20px;
+
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.imagem {
+  width: 30rem;
+  height: 30rem;
+
+  position: relative;
+  animation: flutuar 2s infinite ease;
+}
+
+#imgPokemon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+#imgPokemon img {
+  width: 15rem;
+  filter: drop-shadow(0 0 10px rgb(154, 153, 153));
+
+  border: solid 2px rgb(244, 46, 46);
+  border-radius: 50%;
+}
+
+#content {
+  width: 90%;
+
+  background-color: var(--cor-amarelo);
+  border-radius: 8px;
+
+  font-size: 1.8rem;
+}
+
+
+.redes img {
+  width: 50px;
+  margin: 20px;
+}
+
+
+
+
+
+
+
+@keyframes flutuar {
+  0% {
+    bottom: 0px;
+  }
+  50% {
+    bottom: 30px;
+    transform: rotate(5deg);
+  }
+  100% {
+    bottom: 0px;
+  }
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+
+    <title>Projeto Pokemon</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="imagem">
+        <img src="./assets/pokebola.png" alt="" />
+      </div>
+
+      <form>
+        <label> Procure um Pokemon </label>
+
+        <input
+          id="name"
+          autocomplete="off"
+          required
+          type="text"
+          placeholder="Ex.: pikachu ou 25"
+        />
+
+        <button type="submit">Buscar</button>
+      </form>
+
+      <div id="imgPokemon"></div>
+
+      <div id="content"></div>
+    </div>
+
+    <div class="redes">
+      <a href="https://github.com/Betopereiradev" target="_blank">
+        <img src="./assets/github.png" alt="Meu github"
+      /></a>
+      <a
+        href="https://www.linkedin.com/in/alberto-pereira-59532723b/"
+        target="_blank"
+      >
+        <img src="./assets/linkedin.png" alt="Meu linkedin"
+      /></a>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
